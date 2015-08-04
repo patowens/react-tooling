@@ -1,0 +1,16 @@
+.image-detail {
+	.panel-body {
+		text-align:center;
+	}
+
+	img, video {
+		max-width:100%;
+	}
+
+	.panel-footer h5:empty {
+		&:after {
+			content: "No description";
+			color:#CCCCCC;
+		}
+	}
+}
